@@ -2,12 +2,11 @@ package com.kedacom.rxtest.ui.operators;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+
 import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.kedacom.rxtest.BaseActivity;
 import com.kedacom.rxtest.R;
 import com.kedacom.rxtest.utils.AppConstant;
 

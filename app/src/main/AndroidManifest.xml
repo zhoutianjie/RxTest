@@ -17,6 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.operators.SimpleExampleActivity" />
+        <activity android:name=".ui.operators.MapExampleActivity" />
+        <activity android:name=".ui.operators.OperatorsActivity" />
+        <activity android:name=".ui.operators.ZipExampleActivity" />
+        <activity android:name=".ui.operators.DisposableExampleActivity" />
+        <activity android:name=".ui.operators.TakeExampleActivity" />
+        <activity android:name=".ui.operators.TimerExampleActivity" />
     </application>
 
 </manifest>
