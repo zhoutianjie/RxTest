@@ -22,6 +22,8 @@ public class OperatorsActivity extends BaseActivity {
     private Button mDisposableBtn;
     private Button mTakeBtn;
     private Button mTimerBtn;
+    private Button mIntervalBtn;
+    private Button mSingleBtn;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +39,8 @@ public class OperatorsActivity extends BaseActivity {
         mDisposableBtn = findViewById(R.id.disposable_btn);
         mTakeBtn = findViewById(R.id.take_btn);
         mTimerBtn = findViewById(R.id.timer_btn);
+        mIntervalBtn = findViewById(R.id.interval_btn);
+        mSingleBtn = findViewById(R.id.single_btn);
     }
 
     @Override
@@ -47,5 +51,7 @@ public class OperatorsActivity extends BaseActivity {
         mDisposableBtn.setOnClickListener(v->startActivity(new Intent(this,DisposableExampleActivity.class)));
         mTakeBtn.setOnClickListener(v-> startActivity(new Intent(this,TakeExampleActivity.class)));
         mTimerBtn.setOnClickListener(v->startActivity(new Intent(this,TimerExampleActivity.class)));
+        mIntervalBtn.setOnClickListener(v->startActivity(new Intent(this,IntervalExampleActivity.class)));
+        mSingleBtn.setOnClickListener(v->startActivity(new Intent(this,SingleObserverExampleActivity.class)));
     }
 }

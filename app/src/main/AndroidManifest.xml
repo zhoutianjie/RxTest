@@ -23,6 +23,8 @@
         <activity android:name=".ui.operators.DisposableExampleActivity" />
         <activity android:name=".ui.operators.TakeExampleActivity" />
         <activity android:name=".ui.operators.TimerExampleActivity" />
+        <activity android:name=".ui.operators.IntervalExampleActivity" />
+        <activity android:name=".ui.operators.SingleObserverExampleActivity" />
     </application>
 
 </manifest>

@@ -38,6 +38,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/timer"/>
+        <Button
+            android:id="@+id/interval_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/interval"/>
+        <Button
+            android:id="@+id/single_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/single"/>
 
     </LinearLayout>
 
